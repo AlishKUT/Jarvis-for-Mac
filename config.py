@@ -14,11 +14,11 @@ VA_TBR = ('скажи', 'покажи', 'ответь', 'произнеси', '�
 # -1 это стандартное записывающее устройство
 MICROPHONE_INDEX = -1
 
-# Путь к браузеру Google Chrome
-CHROME_PATH = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+# Путь к браузеру Google Chrome на macOS
+CHROME_PATH = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome %s'
 
 # Токен Picovoice
 PICOVOICE_TOKEN = os.getenv('PICOVOICE_TOKEN')
 
-# Токен OpenAI
-OPENAI_TOKEN = os.getenv('OPENAI_TOKEN')
+# Токен Gemini API
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
